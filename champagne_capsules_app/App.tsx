@@ -1,13 +1,16 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from 'expo-status-bar'
+import { StyleSheet, Text, View } from 'react-native'
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context'
+import { NavigationContainer } from '@react-navigation/native'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Champagne Capsules</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+    <SafeAreaProvider>
+      <NavigationContainer>
+        <Text>Champagne Capsules</Text>
+      </NavigationContainer>
+    </SafeAreaProvider>
+  )
 }
 
 const styles = StyleSheet.create({
@@ -17,4 +20,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-});
+})
