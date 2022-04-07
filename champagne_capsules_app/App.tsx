@@ -18,11 +18,6 @@ export default function App() {
     PlayfairDisplay_700Bold,
   })
 
-  useEffect(() => {
-    // Android bottom color
-    if (osName === 'Android') setBackgroundColorAsync("black")
-  }, [])
-
   if (!fontsLoaded) {
     return <AppLoading />
   } else {

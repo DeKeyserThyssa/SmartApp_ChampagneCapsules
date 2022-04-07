@@ -1,0 +1,62 @@
+[
+    {
+        "id": "abc123",
+        "titel": "Capsule 1",
+        "huis": "Champagnehuis DJ",
+        "genummerd": false,
+        "belgisch": true,
+        "palm": false,
+        "beschrijving": "Speciale capsule van mij",
+        "oplage": "500 exemplaren",
+        "kleuren": {
+            "vooraan": "rood, groen",
+            "opzij": "rood",
+            "rectoverso": "groen"
+        },
+        "tekst": {
+            "vooran": "Hallo",
+            "opzij": "Ik ben een capsule",
+            "rectoverso": "vanbinnen"
+        }
+    },
+    {
+        "id": "abc1234",
+        "titel": "Capsule 2",
+        "huis": "Champagnehuis DJ",
+        "genummerd": true,
+        "belgisch": true,
+        "palm": false,
+        "beschrijving": "Speciale capsule van mij",
+        "oplage": "500 exemplaren",
+        "kleuren": {
+            "vooraan": "rood, groen",
+            "opzij": "rood",
+            "rectoverso": "groen"
+        },
+        "tekst": {
+            "vooran": "Hallo",
+            "opzij": "Ik ben een capsule",
+            "rectoverso": "vanbinnen"
+        }
+    },
+    {
+        "id": "abc12345",
+        "titel": "Capsule 3",
+        "huis": "Champagnehuis DK",
+        "genummerd": true,
+        "belgisch": false,
+        "palm": true,
+        "beschrijving": "Speciale capsule van mij",
+        "oplage": "500 exemplaren",
+        "kleuren": {
+            "vooraan": "rood, groen",
+            "opzij": "rood",
+            "rectoverso": "groen"
+        },
+        "tekst": {
+            "vooran": "Hallo",
+            "opzij": "Ik ben een capsule",
+            "rectoverso": "vanbinnen"
+        }
+    }
+]

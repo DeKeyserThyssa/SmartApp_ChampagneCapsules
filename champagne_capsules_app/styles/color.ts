@@ -7,4 +7,6 @@ export default {
         500: '#656565',
         100: '#939393',
     },
+
+    alpha: 'blue'
 }
