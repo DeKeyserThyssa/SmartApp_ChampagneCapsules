@@ -1,4 +1,4 @@
-import { FlatList, Text, TouchableOpacity } from 'react-native'
+import { FlatList, Text, TouchableOpacity, View } from 'react-native'
 import capsules from '../data/capsules.json'
 import { CapsuleCard as styling } from '../styles/capsule'
 
@@ -8,6 +8,16 @@ export const CapsuleListing = ({ navigation }: { navigation: any }) => {
       return <Text>Genummerd</Text>
     }
   }
+  const isBelgisch = ({ item }: { item: Capsule }) => {
+    if (item.belgisch == true) {
+      return <Text>Belgisch</Text>
+    }
+  }
+  const isPalm = ({ item }: { item: Capsule }) => {
+    if (item.palm == true) {
+      return <Text>Palm</Text>
+    }
+  }
   let count = 1
   const renderItem = ({ item }: { item: Capsule }) => {
     return (
@@ -15,14 +25,18 @@ export const CapsuleListing = ({ navigation }: { navigation: any }) => {
         onPress={() => navigation.navigate('Detail', { payload: item })}
         style={styling.button}
       >
-        <Text style={styling.increment}>
+        <Text style={styling.foto}>
           {(count++).toString().padStart(2, '0')}
         </Text>
-        <Text style={styling.titel}>{item.titel}</Text>
-        <Text style={styling.huis}>{item.huis}</Text>
-        <Text>{isGenummerd}</Text>
-        <Text>{item.belgisch}</Text>
-        <Text>{item.palm}</Text>
+        <View style={styling.titel_huis}>
+          <Text style={styling.titel}>{item.titel}</Text>
+          <Text style={styling.huis}>{item.huis}</Text>
+        </View>
+        <View style={styling.symbolen}>
+          <Text>{isGenummerd}</Text>
+          <Text>{isBelgisch}</Text>
+          <Text>{isPalm}</Text>
+        </View>
       </TouchableOpacity>
     )
   }
