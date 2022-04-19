@@ -27,6 +27,10 @@ export const CapsuleCard = StyleSheet.create({
         flexDirection: 'column',
         flex: 0.8,
     },
+    oplage: {
+        flexDirection: 'row',
+        alignItems: "center",
+    },
     symbolen: {
         flexDirection: 'row',
     }

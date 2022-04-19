@@ -1,12 +1,13 @@
-interface Capsule {
+export default interface Capsule {
     id: string
+    foto: string
     titel: string
     huis: string
     genummerd?: boolean
     belgisch?: boolean
     palm?: boolean
     beschrijving?: string
-    oplage?: string
+    oplage?: number
     kleuren?: {
         vooraan?: string
         opzij?: string

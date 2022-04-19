@@ -1,6 +1,7 @@
 [
     {
         "id": "abc123",
+        "foto": "1",
         "titel": "Capsule 1",
         "huis": "Champagnehuis DJ",
         "genummerd": false,
@@ -13,47 +14,49 @@
             "rectoverso": "groen"
         },
         "tekst": {
-            "vooran": "Hallo",
+            "vooraan": "Hallo",
             "opzij": "Ik ben een capsule",
             "rectoverso": "vanbinnen"
         }
     },
     {
         "id": "abc1234",
+        "foto": "2",
         "titel": "Capsule 2",
         "huis": "Champagnehuis DJ",
         "genummerd": true,
         "belgisch": true,
         "palm": false,
         "beschrijving": "Speciale capsule van mij",
-        "oplage": "500 exemplaren",
+        "oplage": 500,
         "kleuren": {
             "vooraan": "rood, groen",
             "opzij": "rood",
             "rectoverso": "groen"
         },
         "tekst": {
-            "vooran": "Hallo",
+            "vooraan": "Hallo",
             "opzij": "Ik ben een capsule",
             "rectoverso": "vanbinnen"
         }
     },
     {
         "id": "abc12345",
+        "foto": "3",
         "titel": "Capsule 3",
         "huis": "Champagnehuis DK",
         "genummerd": true,
         "belgisch": false,
         "palm": true,
         "beschrijving": "Speciale capsule van mij",
-        "oplage": "500 exemplaren",
+        "oplage": 500,
         "kleuren": {
             "vooraan": "rood, groen",
             "opzij": "rood",
             "rectoverso": "groen"
         },
         "tekst": {
-            "vooran": "Hallo",
+            "vooraan": "Hallo",
             "opzij": "Ik ben een capsule",
             "rectoverso": "vanbinnen"
         }
