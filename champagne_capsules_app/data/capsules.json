@@ -1,7 +1,7 @@
 [
     {
         "id": "abc123",
-        "foto": "1",
+        "foto": "https://www.delcampe.net/static/img_large/auction/000/461/521/851_001.jpg?v=2",
         "titel": "Capsule 1",
         "huis": "Champagnehuis DJ",
         "genummerd": false,
@@ -21,7 +21,7 @@
     },
     {
         "id": "abc1234",
-        "foto": "2",
+        "foto": "https://www.delcampe.net/static/img_large/auction/000/513/058/962_001.jpg?v=12",
         "titel": "Capsule 2",
         "huis": "Champagnehuis DJ",
         "genummerd": true,
@@ -42,7 +42,7 @@
     },
     {
         "id": "abc12345",
-        "foto": "3",
+        "foto": "https://www.delcampe.net/static/img_large/auction/000/320/465/593_001.jpg?v=0",
         "titel": "Capsule 3",
         "huis": "Champagnehuis DK",
         "genummerd": true,

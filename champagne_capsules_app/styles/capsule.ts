@@ -5,12 +5,10 @@ export const CapsuleCard = StyleSheet.create({
     holder: {
         margin: 16,
     },
-
     button: {
         padding: 16,
         flexDirection: "row",
     },
-
     foto: {
         fontSize: 32,
         fontWeight: '800',
@@ -25,11 +23,7 @@ export const CapsuleCard = StyleSheet.create({
     },
     titel_huis: {
         flexDirection: 'column',
-        flex: 0.8,
-    },
-    oplage: {
-        flexDirection: 'row',
-        alignItems: "center",
+        flex: 0.9,
     },
     symbolen: {
         flexDirection: 'row',
