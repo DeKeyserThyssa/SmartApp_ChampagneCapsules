@@ -9,6 +9,8 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 export default ({route}: {route: any }) => {
 
   return (
+    <SafeAreaView>
       <CapsuleDetail route={route}/>
+    </SafeAreaView>
   )
 }

@@ -11,26 +11,26 @@ export const CapsuleListing = ({ capsule }: { capsule: Capsule }) => {
 
   const isGenummerd = (item: Capsule) => {
     if (item.genummerd == true) {
-      return <Feather name="hash" size={16} color="black" />
+      return <Feather name="hash" style={styling.symbol_true} size={16} color="black" />
     } else {
-      return <></>
+      return <Feather name="hash" style={styling.symbol_false} size={16} color="black" />
     }
   }
   const isBelgisch = (item: Capsule) => {
     if (item.belgisch == true) {
-      return <Image source={{ uri: 'https://flagcdn.com/24x18/be.png' }} />
+      return <Text>Be</Text>
     } else {
       return <></>
     }
   }
   const isPalm = (item: Capsule) => {
     if (item.palm == true) {
-      return <Ionicons name="brush" size={16} color="black" />
+      return <Ionicons name="brush" style={styling.symbol_true} size={16} color="black" />
     } else {
-      return <></>
+      return <Ionicons name="brush" style={styling.symbol_false} size={16} color="black" />
     }
   }
-  let count = 1
+  
   const renderItem = ({ item }: { item: Capsule }) => {
     return (
       <TouchableOpacity
@@ -48,8 +48,8 @@ export const CapsuleListing = ({ capsule }: { capsule: Capsule }) => {
           <Text style={styling.huis}>{item.huis}</Text>
         </View>
         <View style={styling.symbolen}>
-          {isGenummerd(item)}
           {isBelgisch(item)}
+          {isGenummerd(item)}
           {isPalm(item)}
         </View>
       </TouchableOpacity>

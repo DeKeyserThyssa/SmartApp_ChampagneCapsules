@@ -29,5 +29,12 @@ export const CapsuleCard = StyleSheet.create({
     symbolen: {
         flexDirection: 'row',
         paddingVertical: 16,
+    },
+    symbol_true: {
+        opacity: 1.0
+    },
+    symbol_false: {
+        opacity: 0.1
     }
+
 })

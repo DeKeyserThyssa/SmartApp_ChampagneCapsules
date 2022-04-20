@@ -15,10 +15,19 @@ export const CapsuleDetail = StyleSheet.create({
     beschrijving: {
         fontSize: 16,
     },
+    header: {
+        flexDirection: "row",
+        // paddingBottom: 16,
+        justifyContent: "space-between"
+    },
+    header_text: {
+        maxWidth: 250,
+        paddingRight: 16,
+    },
     foto: {
-        width: 48,
-        height: 48,
-        borderRadius: 24,
+        width: 80,
+        height: 80,
+        borderRadius: 40,
     },
     oplage: {
         flexDirection: 'row',
@@ -36,5 +45,11 @@ export const CapsuleDetail = StyleSheet.create({
         fontSize: 20,
         fontWeight: "bold",
     },
+    symbol_true: {
+        opacity: 1.0
+    },
+    symbol_false: {
+        opacity: 0.1
+    }
 
 })
