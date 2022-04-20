@@ -1,4 +1,4 @@
-import { FlatList, Text, TouchableOpacity, View } from 'react-native'
+import { FlatList, Text, TouchableOpacity, View, Image } from 'react-native'
 import capsules from '../data/capsules.json'
 import Capsule from '../interfaces/Capsule'
 import { CapsuleCard as styling } from '../styles/capsule'
@@ -18,12 +18,16 @@ export const CapsuleListing = ({ capsule }: { capsule: Capsule }) => {
   }
   const isBelgisch = (item: Capsule) => {
     if (item.belgisch == true) {
-      return <Text>Belgisch</Text>
+      return <Image source={{ uri: 'https://flagcdn.com/24x18/be.png' }} />
+    } else {
+      return <></>
     }
   }
   const isPalm = (item: Capsule) => {
     if (item.palm == true) {
       return <Ionicons name="brush" size={16} color="black" />
+    } else {
+      return <></>
     }
   }
   let count = 1
@@ -33,7 +37,12 @@ export const CapsuleListing = ({ capsule }: { capsule: Capsule }) => {
         onPress={() => navigate('Detail', { payload: item })}
         style={styling.button}
       >
-        {/* <img src={item.foto} /> */}
+        <Image
+          style={styling.foto}
+          source={{
+            uri: item.foto
+          }}
+        />
         <View style={styling.titel_huis}>
           <Text style={styling.titel}>{item.titel}</Text>
           <Text style={styling.huis}>{item.huis}</Text>

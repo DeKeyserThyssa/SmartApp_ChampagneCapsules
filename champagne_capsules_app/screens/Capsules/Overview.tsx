@@ -16,7 +16,7 @@ export const Overview = ({ capsule }: { capsule: Capsule }) => {
 
   return (
     <SafeAreaView style={core.container}>
-      <SearchBar />
+      <SearchBar/>
       <CapsuleListing capsule={capsule} />
     </SafeAreaView>
   )

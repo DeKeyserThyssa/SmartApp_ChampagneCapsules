@@ -18,7 +18,7 @@ export const styles = StyleSheet.create({
     paddingVertical: 10,
     paddingHorizontal: 16,
     textAlign: 'center',
-    marginVertical: 8,
+    marginBottom: 24,
     borderRadius: 50,
   },
 })

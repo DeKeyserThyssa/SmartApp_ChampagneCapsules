@@ -8,12 +8,12 @@ export const CapsuleCard = StyleSheet.create({
     button: {
         padding: 16,
         flexDirection: "row",
+        // borderWidth: 1,
     },
     foto: {
-        fontSize: 32,
-        fontWeight: '800',
-        color: color.alpha,
-        flex: 0.2,
+        width: 48,
+        height: 48,
+        borderRadius: 24,
     },
     titel: {
         fontSize: 20,
@@ -24,8 +24,10 @@ export const CapsuleCard = StyleSheet.create({
     titel_huis: {
         flexDirection: 'column',
         flex: 0.9,
+        paddingLeft: 8,
     },
     symbolen: {
         flexDirection: 'row',
+        paddingVertical: 16,
     }
 })

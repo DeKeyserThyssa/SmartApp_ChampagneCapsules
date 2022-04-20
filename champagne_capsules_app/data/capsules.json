@@ -1,64 +1,64 @@
 [
-    {
-        "id": "abc123",
-        "foto": "https://www.delcampe.net/static/img_large/auction/000/461/521/851_001.jpg?v=2",
-        "titel": "Capsule 1",
-        "huis": "Champagnehuis DJ",
-        "genummerd": false,
-        "belgisch": true,
-        "palm": false,
-        "beschrijving": "Speciale capsule van mij",
-        "kleuren": {
-            "vooraan": "rood, groen",
-            "opzij": "rood",
-            "rectoverso": "groen"
-        },
-        "tekst": {
-            "vooraan": "Hallo",
-            "opzij": "Ik ben een capsule",
-            "rectoverso": "vanbinnen"
-        }
+  {
+    "id": "abc123",
+    "foto": "https://www.delcampe.net/static/img_large/auction/000/461/521/851_001.jpg?v=2",
+    "titel": "Capsule 1",
+    "huis": "Champagnehuis DJ",
+    "genummerd": false,
+    "belgisch": true,
+    "palm": false,
+    "beschrijving": "Speciale capsule van mij",
+    "kleuren": {
+      "vooraan": "rood, groen",
+      "opzij": "rood",
+      "rectoverso": "groen"
     },
-    {
-        "id": "abc1234",
-        "foto": "https://www.delcampe.net/static/img_large/auction/000/513/058/962_001.jpg?v=12",
-        "titel": "Capsule 2",
-        "huis": "Champagnehuis DJ",
-        "genummerd": true,
-        "belgisch": true,
-        "palm": false,
-        "beschrijving": "Speciale capsule van mij",
-        "oplage": 500,
-        "kleuren": {
-            "vooraan": "rood, groen",
-            "opzij": "rood",
-            "rectoverso": "groen"
-        },
-        "tekst": {
-            "vooraan": "Hallo",
-            "opzij": "Ik ben een capsule",
-            "rectoverso": "vanbinnen"
-        }
-    },
-    {
-        "id": "abc12345",
-        "foto": "https://www.delcampe.net/static/img_large/auction/000/320/465/593_001.jpg?v=0",
-        "titel": "Capsule 3",
-        "huis": "Champagnehuis DK",
-        "genummerd": true,
-        "belgisch": false,
-        "palm": true,
-        "beschrijving": "Speciale capsule van mij",
-        "oplage": 500,
-        "kleuren": {
-            "vooraan": "rood, groen",
-            "opzij": "rood",
-            "rectoverso": "groen"
-        },
-        "tekst": {
-            "vooraan": "Hallo",
-            "opzij": "Ik ben een capsule",
-            "rectoverso": "vanbinnen"
-        }
+    "tekst": {
+      "vooraan": "Hallo",
+      "opzij": "Ik ben een capsule",
+      "rectoverso": "vanbinnen"
     }
+  },
+  {
+    "id": "abc1234",
+    "foto": "https://www.delcampe.net/static/img_large/auction/000/513/058/962_001.jpg?v=12",
+    "titel": "Capsule 2",
+    "huis": "Champagnehuis DJ",
+    "genummerd": true,
+    "belgisch": true,
+    "palm": false,
+    "beschrijving": "Speciale capsule van mij",
+    "oplage": 500,
+    "kleuren": {
+      "vooraan": "rood, groen",
+      "opzij": "rood",
+      "rectoverso": "groen"
+    },
+    "tekst": {
+      "vooraan": "Hallo",
+      "opzij": "Ik ben een capsule",
+      "rectoverso": "vanbinnen"
+    }
+  },
+  {
+    "id": "abc12345",
+    "foto": "https://www.delcampe.net/static/img_large/auction/000/320/465/593_001.jpg?v=0",
+    "titel": "Capsule 3",
+    "huis": "Champagnehuis DK",
+    "genummerd": true,
+    "belgisch": false,
+    "palm": true,
+    "beschrijving": "Speciale capsule van mij",
+    "oplage": 500,
+    "kleuren": {
+      "vooraan": "rood, groen",
+      "opzij": "rood",
+      "rectoverso": "groen"
+    },
+    "tekst": {
+      "vooraan": "Hallo",
+      "opzij": "Ik ben een capsule",
+      "rectoverso": "vanbinnen"
+    }
+  }
 ]

@@ -15,6 +15,11 @@ export const CapsuleDetail = StyleSheet.create({
     beschrijving: {
         fontSize: 16,
     },
+    foto: {
+        width: 48,
+        height: 48,
+        borderRadius: 24,
+    },
     oplage: {
         flexDirection: 'row',
         alignItems: "center",

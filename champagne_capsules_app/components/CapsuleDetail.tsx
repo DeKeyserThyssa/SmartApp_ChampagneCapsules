@@ -1,4 +1,4 @@
-import { Text, View } from 'react-native'
+import { Image, Text, View } from 'react-native'
 import { CapsuleDetail as styling } from '../styles/capsuleDetails'
 import { ParamListBase, useNavigation } from '@react-navigation/native'
 import { StackNavigationProp } from '@react-navigation/stack'
@@ -18,6 +18,12 @@ export const CapsuleDetail = ({ route }: { route: any }) => {
       <Text style={styling.titel}>{payload.titel}</Text>
       <Text style={styling.huis}>{payload.huis}</Text>
       <Text>{payload.beschrijving}</Text>
+      <Image
+          style={styling.foto}
+          source={{
+            uri: payload.foto
+          }}
+        />
       <View style={styling.oplage}>
         <Feather name="hash" size={24} color="black" />
         <Text style={styling.oplage}>{payload.oplage} exemplaren</Text>
