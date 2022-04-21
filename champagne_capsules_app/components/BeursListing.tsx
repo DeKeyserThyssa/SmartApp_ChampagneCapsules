@@ -11,7 +11,7 @@ export const BeursListing = ({ beurs }: { beurs: Beurs }) => {
   const renderItem = ({ item }: { item: Beurs }) => {
     return (
       <TouchableOpacity
-        onPress={() => navigate('Detail', { payload: item })}
+        onPress={() => navigate('DetailBeurzen', { payload: item })}
         style={styling.button}
       >
         <Text>{item.locatie}</Text>
