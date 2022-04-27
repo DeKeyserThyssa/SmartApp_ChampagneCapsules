@@ -5,6 +5,7 @@ import { StackNavigationProp } from '@react-navigation/stack'
 import { useEffect } from 'react'
 import { Feather, Ionicons } from '@expo/vector-icons'
 import Capsule from '../interfaces/Capsule'
+import { isPalm } from './CapsuleListing'
 
 export const CapsuleDetail = ({ route }: { route: any }) => {
   const { payload } = route.params
@@ -14,13 +15,13 @@ export const CapsuleDetail = ({ route }: { route: any }) => {
     navigation?.getParent()?.setOptions({ titel: payload.titel })
   }, [])
 
-  const isPalm = (payload: Capsule) => {
-    if (payload.palm == true) {
-      return <Ionicons name="brush" style={styling.symbol_true} size={16} color="black" />
-    } else {
-      return <Ionicons name="brush" style={styling.symbol_false} size={16} color="black" />
-    }
-  }
+  // const isPalm = (payload: Capsule) => {
+  //   if (payload.palm == true) {
+  //     return <Ionicons name="brush" style={styling.symbol_true} size={16} color="black" />
+  //   } else {
+  //     return <Ionicons name="brush" style={styling.symbol_false} size={16} color="black" />
+  //   }
+  // }
 
   return (
     <View style={styling.detail}>
@@ -28,7 +29,7 @@ export const CapsuleDetail = ({ route }: { route: any }) => {
         <View style={styling.header_text}>
           <Text style={styling.titel}>{payload.titel}</Text>
           <Text style={styling.huis}>{payload.huis}</Text>
-          <Text>{isPalm(payload)}</Text>
+          <Text>{isPalm}</Text>
         </View>
         <Image
           style={styling.foto}

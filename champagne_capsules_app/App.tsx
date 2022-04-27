@@ -11,6 +11,7 @@ import AppNavigation from './screens/AppNavigation'
 import { useEffect } from 'react';
 import { setBackgroundColorAsync } from 'expo-navigation-bar';
 import { osName } from 'expo-device';
+import Home from './screens/Home';
 
 export default function App() {
   const [fontsLoaded, error] = useFonts({
@@ -24,9 +25,10 @@ export default function App() {
     return (
       <NavigationContainer>
         <SafeAreaProvider>
-          <StatusBar style="inverted" />
+          <StatusBar />
 
-          <AppNavigation />
+          <Home/>
+          {/* <AppNavigation /> */}
         </SafeAreaProvider>
       </NavigationContainer>
     )
