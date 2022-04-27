@@ -17,10 +17,10 @@ export default () => {
     signOut(auth)
       .then(() => {
         setUser(null)
-        navigate('/login')
+        navigate('Start')
       })
       .catch(() => {
-        // show something
+        //TODO: show something
       })
   }
 
@@ -28,11 +28,10 @@ export default () => {
 
   return (
     <View style={signin.container}>
-      {/* TODO: displayname ipv email */}
-      <Text>Welcome {user?.email}!</Text>
+      <Text>Welcome {user?.displayName}!</Text>
 
       <Pressable
-        onPress={() => navigate('Home')}
+        onPress={logout}
         style={[start.button, start.register]}
       >
         <Text style={[start.buttontext]}>Sign Out</Text>

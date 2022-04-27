@@ -29,11 +29,9 @@ export default () => {
       if (user) {
         setUser(user as User) 
       }
-      setResolved(true)
     },
     (error) => {
       console.log(error)
-      setResolved(true)
     },
   )
   return (

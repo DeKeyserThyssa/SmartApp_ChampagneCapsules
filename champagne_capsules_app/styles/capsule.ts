@@ -34,7 +34,10 @@ export const CapsuleCard = StyleSheet.create({
         opacity: 1.0
     },
     symbol_false: {
-        opacity: 0.1
-    }
-
+        opacity: 0.05
+    },
+    vlag: {
+        width: 16,
+        height: 16
+    },
 })

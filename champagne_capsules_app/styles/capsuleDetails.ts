@@ -50,6 +50,10 @@ export const CapsuleDetail = StyleSheet.create({
     },
     symbol_false: {
         opacity: 0.1
-    }
+    },
+    vlag: {
+        width: 16,
+        height: 16
+    },
 
 })

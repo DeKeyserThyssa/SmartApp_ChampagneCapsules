@@ -16,10 +16,14 @@ import start from '../../styles/start'
 import Account from '../Account'
 import { FormErrors } from '../../interfaces/FormErrors'
 
+// TODO: errors
+// TODO: verwijder skip buttons
+
 export default () => {
   const [userCredentials, setUserCredentials] = useState({
     email: 'thyssa.dekeyser@hotmail.com',
     password: 'Password123',
+    displayName: 'Thyssa',
     error: '',
   })
 
@@ -133,11 +137,7 @@ export default () => {
           }
           secureTextEntry={true}
         />
-        {/* <Button
-        title="Sign in"
-          onPress={login}
-          // style={[start.button, start.register]}
-        /> */}
+
         <Pressable onPress={login} style={[start.button, start.register]}>
           <Text style={[start.buttontext]}>Log in</Text>
         </Pressable>

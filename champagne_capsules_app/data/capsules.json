@@ -9,15 +9,28 @@
     "palm": false,
     "beschrijving": "Speciale capsule van mij",
     "kleuren": {
-      "vooraan": "rood, groen",
-      "opzij": "rood",
-      "rectoverso": "groen"
+      "vooraan": ["rood", "groen"],
+      "opzij": ["rood"],
+      "rectoverso": ["groen"]
     },
     "tekst": {
       "vooraan": "Hallo",
       "opzij": "Ik ben een capsule",
       "rectoverso": "vanbinnen"
     }
+  },
+  {
+    "titel": "Lion Flamand",
+    "huis": "Lambert 2022",
+    "genummerd": true,
+    "belgisch": true,
+    "palm": false,
+    "oplage": 240,
+    "kleuren": {
+      "vooraan": ["wit", "geel", "rood", "zwart"],
+      "opzij": ["geel", "zwart"]
+    },
+    "tekst": { "Opzij": "240" }
   },
   {
     "id": "abc1234",
@@ -30,9 +43,9 @@
     "beschrijving": "Speciale capsule van mij",
     "oplage": 500,
     "kleuren": {
-      "vooraan": "rood, groen",
-      "opzij": "rood",
-      "rectoverso": "groen"
+      "vooraan": ["rood", "groen"],
+      "opzij": ["rood"],
+      "rectoverso": ["groen"]
     },
     "tekst": {
       "vooraan": "Hallo",
@@ -51,9 +64,9 @@
     "beschrijving": "Speciale capsule van mij",
     "oplage": 500,
     "kleuren": {
-      "vooraan": "rood, groen",
-      "opzij": "rood",
-      "rectoverso": "groen"
+      "vooraan": ["rood", "groen"],
+      "opzij": ["rood"],
+      "rectoverso": ["groen"]
     },
     "tekst": {
       "vooraan": "Hallo",

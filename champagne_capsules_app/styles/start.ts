@@ -29,4 +29,9 @@ export default StyleSheet.create({
   register: {
       marginTop: 24,
   },
+  foto: {
+    width: 400,
+    height: 300
+
+  }
 })

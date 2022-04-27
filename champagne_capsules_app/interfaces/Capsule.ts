@@ -9,9 +9,9 @@ export default interface Capsule {
     beschrijving?: string
     oplage?: number
     kleuren?: {
-        vooraan?: string
-        opzij?: string
-        rectoverso?: string
+        vooraan?: {}
+        opzij?: {}
+        rectoverso?: {}
     }
     tekst?: {
         vooraan?: string
