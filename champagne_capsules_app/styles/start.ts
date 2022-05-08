@@ -8,7 +8,7 @@ export default StyleSheet.create({
     marginTop: 64,
     margin: 24,
   },
-  
+
   buttonImage: {
     alignItems: 'center',
     justifyContent: 'center',
@@ -26,21 +26,11 @@ export default StyleSheet.create({
     paddingHorizontal: 32,
     marginTop: 24,
     borderRadius: 50,
-    backgroundColor: 'lightblue'
+    backgroundColor: '#f4e3b6'
   },
   buttontext: {
     color: 'black',
     fontSize: 24,
-  },
-  login: {
-    marginBottom: 24,
-  },
-  register: {
-    marginTop: 24,
-  },
-  foto: {
-    width: 300,
-    height: 300,
   },
   welkom: {
     position: "absolute",
@@ -49,10 +39,6 @@ export default StyleSheet.create({
     fontSize: 32,
     fontWeight: 'bold',
     top: 48,
-  },
-  textimage: {
-    fontSize: 20,
-    fontWeight: 'bold',
   },
   coverImage: {
     width: 150,

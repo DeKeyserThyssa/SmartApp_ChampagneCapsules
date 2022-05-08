@@ -43,7 +43,7 @@ const screenOptions = ({
   },
 
   headerStyle: {
-    backgroundColor: color.light,
+    backgroundColor: color.gold,
   },
   headerTitleStyle: {
     color: color.dark,
@@ -56,7 +56,6 @@ export default () => {
         <Tab.Screen name="Capsules" component={Capsules} />
         <Tab.Screen name="Ruilbeurzen" component={Ruilbeurzen} />
         <Tab.Screen name="Account" component={Account} />
-        {/* <Tab.Screen name="Home" component={Home} /> */}
       </Tab.Navigator>
   )
 }

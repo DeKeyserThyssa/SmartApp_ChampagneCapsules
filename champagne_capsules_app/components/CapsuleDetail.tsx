@@ -64,7 +64,7 @@ export const CapsuleDetail = ({ route }: { route: any }) => {
       {Oplage(payload)}
       <View style={styling.kleuren}>
         <Text style={styling.kleuren}>KLEUREN</Text>
-        {checkColor(payload)}
+        {KleurenVooraan(payload)}
         {KleurenOpzij(payload)}
         {KleurenRectoVerso(payload)}
       </View>

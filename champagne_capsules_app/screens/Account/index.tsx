@@ -30,16 +30,16 @@ export default () => {
     <View style={signin.container}>
       <Text style={start.welkom}>Welkom {user?.displayName}!</Text>
 
-      <Pressable style={[start.button, start.register]}>
+      <Pressable style={[start.button]}>
         <Text style={[start.buttontext]}>Favorieten</Text>
       </Pressable>
-      <Pressable style={[start.button, start.register]}>
+      <Pressable style={[start.button]}>
         <Text style={[start.buttontext]}>Dubbele</Text>
       </Pressable>
 
       <Pressable
         onPress={logout}
-        style={[start.button, start.register]}
+        style={[start.button]}
       >
         <Text style={[start.buttontext]}>Uitloggen</Text>
       </Pressable>

@@ -10,9 +10,7 @@ import color from '../styles/color'
 
 export const KleurenVooraan = (item: Capsule) => {
   if (item.kleuren?.vooraan != undefined) {
-    return (
-      <Text style={[{ color: checkColor(item)}]}>Vooraan: {item.kleuren.vooraan}</Text>
-    )
+    return <Text>Vooraan: {item.kleuren.vooraan}</Text>
   }
 }
 

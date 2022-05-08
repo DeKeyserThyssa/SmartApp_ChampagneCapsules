@@ -8,6 +8,8 @@ export default {
         100: '#939393',
     },
 
+    gold: '#daa520',
+
     alpha: 'blue',
 
     rood: '#FF0000',

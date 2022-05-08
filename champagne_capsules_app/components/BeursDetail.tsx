@@ -17,24 +17,31 @@ export const BeursDetail = ({ route }: { route: any }) => {
   return (
     <View style={styling.detail}>
       <Text style={styling.locatie}>{payload.locatie}</Text>
-      <View style={styling.adres}>
+      <View style={styling.icon}>
         <Feather name="map-pin" size={20} color="black" />
         <Text style={styling.adres}>{payload.adres}</Text>
       </View>
 
       <View style={styling.date}>
-        <View style={styling.datum}>
+        <View style={styling.icon}>
           <FontAwesome name="calendar" size={20} color="black" />
           <Text style={styling.tekst}>{payload.datum}</Text>
         </View>
-        <View style={styling.uur}>
+        <View style={styling.icon}>
           <Feather name="clock" size={20} color="black" />
           <Text style={styling.tekst}>{payload.uur}</Text>
         </View>
       </View>
-      <Text style={styling.organisator}>{payload.organisator}</Text>
-      <Text>{payload.prijs}</Text>
-      <Text>{payload.beschrijving}</Text>
+      <View style={styling.icon}>
+        <FontAwesome name="group" size={16} color="black" />
+        <Text style={styling.organisator}>{payload.organisator}</Text>
+      </View>
+      <View style={styling.icon}>
+        <FontAwesome name="euro" size={24} color="black" />
+        <Text style={styling.prijs}>{payload.prijs}</Text>
+      </View>
+
+      <Text style={styling.beschrijving}>{payload.beschrijving}</Text>
     </View>
   )
 }

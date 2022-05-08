@@ -22,6 +22,7 @@ export default () => {
     email: '',
     password: '',
     displayName: '',
+    error: ''
   })
   const [name, setName] = useState<string>()
   const { setUser } = useAuth()
@@ -41,6 +42,7 @@ export default () => {
           email: '',
           password: '',
           displayName: '',
+          error: '',
         })
         setName('')
         navigate('AppNavigation', { screen: 'Account' })
@@ -77,13 +79,13 @@ export default () => {
 
         <Pressable
           onPress={registerUser}
-          style={[start.button, start.register]}
+          style={[start.button]}
         >
           <Text style={[start.buttontext]}>Log in</Text>
         </Pressable>
         <Pressable
           onPress={() => navigate('AppNavigation', { screen: 'Account' })}
-          style={[start.button, start.register]}
+          style={[start.button]}
         >
           <Text style={[start.buttontext]}>Skip</Text>
         </Pressable>

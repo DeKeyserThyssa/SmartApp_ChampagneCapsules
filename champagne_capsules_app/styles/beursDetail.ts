@@ -10,8 +10,6 @@ export const BeursDetail = StyleSheet.create({
         fontSize: 28,
     },
     adres: {
-        flexDirection: "row",
-        alignItems: "center",
         fontSize: 22,
     },
     date: {
@@ -21,21 +19,26 @@ export const BeursDetail = StyleSheet.create({
         fontWeight: "bold",
         justifyContent: "space-around"
     },
-    datum: {
-        flexDirection: "row",
-        alignItems: "center",
-    },
-    uur: {
+    icon: {
         flexDirection: "row",
         alignItems: "center",
     },
     organisator: {
-        marginVertical: 8,
+        marginLeft: 8,
+        marginVertical: 16,
         fontSize: 20,
         fontWeight: "bold",
     },
     tekst: {
         marginLeft: 8
+    },
+    prijs: {
+        fontSize: 16,
+        fontWeight: "600",
+        marginLeft: 12,
+    },
+    beschrijving: {
+        marginVertical: 24,
     }
     
 })

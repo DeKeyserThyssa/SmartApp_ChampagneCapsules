@@ -143,10 +143,10 @@ export default () => {
           secureTextEntry={true}
         />
 
-        <Pressable onPress={login} style={[start.button, start.register]}>
+        <Pressable onPress={login} style={[start.button]}>
           <Text style={[start.buttontext]}>Log in</Text>
         </Pressable>
-        <Pressable onPress={() => navigate('AppNavigation', {screen: 'Account'})} style={[start.button, start.register]}>
+        <Pressable onPress={() => navigate('AppNavigation', {screen: 'Account'})} style={[start.button]}>
           <Text style={[start.buttontext]}>Skip</Text>
         </Pressable>
       </View>
