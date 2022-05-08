@@ -1,6 +1,8 @@
 import { StyleSheet } from "react-native";
 import color from "./color";
 
+// TODO: na IsTrue oplage hier weg
+
 export const CapsuleCard = StyleSheet.create({
     holder: {
         margin: 16,
@@ -34,10 +36,17 @@ export const CapsuleCard = StyleSheet.create({
         opacity: 1.0
     },
     symbol_false: {
-        opacity: 0.05
+        opacity: 0
     },
     vlag: {
         width: 16,
         height: 16
+    },
+
+    oplage: {
+        flexDirection: 'row',
+        alignItems: "center",
+        fontSize: 20,
+        padding: 8,
     },
 })

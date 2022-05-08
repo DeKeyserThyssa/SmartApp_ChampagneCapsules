@@ -5,7 +5,18 @@ import { StackNavigationProp } from '@react-navigation/stack'
 import { useEffect } from 'react'
 import { Feather, Ionicons } from '@expo/vector-icons'
 import Capsule from '../interfaces/Capsule'
-import { isPalm } from './CapsuleListing'
+import {
+  IsBelgisch,
+  IsPalm,
+  KleurenOpzij,
+  KleurenRectoVerso,
+  KleurenVooraan,
+  Oplage,
+  TekstOpzij,
+  TekstRectoVerso,
+  TekstVooraan,
+} from './IsTrue'
+import { checkColor } from './Colors'
 
 export const CapsuleDetail = ({ route }: { route: any }) => {
   const { payload } = route.params
@@ -29,36 +40,40 @@ export const CapsuleDetail = ({ route }: { route: any }) => {
         <View style={styling.header_text}>
           <Text style={styling.titel}>{payload.titel}</Text>
           <Text style={styling.huis}>{payload.huis}</Text>
-          <Text>{isPalm}</Text>
+          {IsBelgisch(payload)}
+          {IsPalm(payload)}
         </View>
-        <Image
-          style={styling.foto}
-          source={{
-            uri: payload.foto,
-          }}
-        />
+        <View>
+          <Image
+            style={styling.foto}
+            source={{
+              uri: payload.foto,
+            }}
+          />
+          {
+            <Image
+              style={styling.foto}
+              source={{
+                uri: payload.fotobinnenkant,
+              }}
+            />
+          }
+        </View>
       </View>
       <Text>{payload.beschrijving}</Text>
-      <View style={styling.oplage}>
-        <Feather name="hash" size={24} color="black" />
-        <Text style={styling.oplage}>{payload.oplage} exemplaren</Text>
-      </View>
+      {Oplage(payload)}
       <View style={styling.kleuren}>
         <Text style={styling.kleuren}>KLEUREN</Text>
-        <Text>Vooraan: {payload.kleuren.vooraan}</Text>
-        <Text>Opzij: {payload.kleuren.opzij}</Text>
-        <Text>Recto/verso: {payload.kleuren.rectoverso}</Text>
+        {checkColor(payload)}
+        {KleurenOpzij(payload)}
+        {KleurenRectoVerso(payload)}
       </View>
       <View style={styling.tekst}>
         <Text style={styling.tekst}>TEKST</Text>
-        <Text>Vooraan: {payload.tekst.vooraan}</Text>
-        <Text>Opzij: {payload.tekst.opzij}</Text>
-        <Text>Recto/verso: {payload.tekst.rectoverso}</Text>
+        {TekstVooraan(payload)}
+        {TekstOpzij(payload)}
+        {TekstRectoVerso(payload)}
       </View>
-      {/* <View style={styling.symbolen}> */}
-      {/* <Text>{payload.isBelgisch}</Text> */}
-
-      {/* </View> */}
     </View>
   )
 }

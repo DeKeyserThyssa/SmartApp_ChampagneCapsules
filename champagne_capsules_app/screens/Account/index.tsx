@@ -28,13 +28,20 @@ export default () => {
 
   return (
     <View style={signin.container}>
-      <Text>Welcome {user?.displayName}!</Text>
+      <Text style={start.welkom}>Welkom {user?.displayName}!</Text>
+
+      <Pressable style={[start.button, start.register]}>
+        <Text style={[start.buttontext]}>Favorieten</Text>
+      </Pressable>
+      <Pressable style={[start.button, start.register]}>
+        <Text style={[start.buttontext]}>Dubbele</Text>
+      </Pressable>
 
       <Pressable
         onPress={logout}
         style={[start.button, start.register]}
       >
-        <Text style={[start.buttontext]}>Sign Out</Text>
+        <Text style={[start.buttontext]}>Uitloggen</Text>
       </Pressable>
     </View>
   )

@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+import { checkColor } from "../components/Colors";
 import color from "./color";
 
 export const CapsuleDetail = StyleSheet.create({
@@ -49,11 +50,11 @@ export const CapsuleDetail = StyleSheet.create({
         opacity: 1.0
     },
     symbol_false: {
-        opacity: 0.1
+        opacity: 0
     },
     vlag: {
         width: 16,
         height: 16
-    },
-
+    }
+    
 })

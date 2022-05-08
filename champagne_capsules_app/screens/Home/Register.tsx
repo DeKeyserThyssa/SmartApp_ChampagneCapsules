@@ -9,7 +9,7 @@ import {
 } from 'firebase/auth'
 import { auth } from '../../utils/firebase'
 import start from '../../styles/start'
-import { ParamListBase, useNavigation } from '@react-navigation/native'
+import { ParamListBase, StackActions, useNavigation } from '@react-navigation/native'
 import { StackNavigationProp } from '@react-navigation/stack'
 import signin from '../../styles/signin'
 
@@ -17,9 +17,11 @@ import signin from '../../styles/signin'
 // TODO: verwijder skip buttons
 
 export default () => {
+  const navigation = useNavigation();
   const [newUser, setNewUser] = useState({
     email: '',
     password: '',
+    displayName: '',
   })
   const [name, setName] = useState<string>()
   const { setUser } = useAuth()
@@ -38,20 +40,24 @@ export default () => {
         setNewUser({
           email: '',
           password: '',
+          displayName: '',
         })
         setName('')
         navigate('AppNavigation', { screen: 'Account' })
         console.log(newUser, name)
+        navigation.dispatch(
+          StackActions.replace('AppNavigation', { newUser: 'displayName', screen: 'Account'})
+        )
       })
     }
   }
   const { navigate } = useNavigation<StackNavigationProp<ParamListBase>>()
   return (
     <View style={[signin.container]}>
-      <Text>Signup screen!</Text>
+      <Text style={start.buttontext}>Maak hier een account!</Text>
       <View>
         <TextInput
-          placeholder="Displayname"
+          placeholder="Gebruikersnaam"
           value={name}
           onChangeText={(name) => setName(name)}
         />
@@ -63,7 +69,7 @@ export default () => {
         />
 
         <TextInput
-          placeholder="Password"
+          placeholder="Wachtwoord"
           value={newUser.password}
           onChangeText={(text) => setNewUser({ ...newUser, password: text })}
           secureTextEntry={true}

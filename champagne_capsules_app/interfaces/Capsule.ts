@@ -1,6 +1,7 @@
 export default interface Capsule {
     id: string
     foto: string
+    fotobinnenkant: string
     titel: string
     huis: string
     genummerd?: boolean

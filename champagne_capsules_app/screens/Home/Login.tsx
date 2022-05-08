@@ -9,7 +9,7 @@ import {
   UserCredential,
 } from 'firebase/auth'
 import { auth } from '../../utils/firebase'
-import { ParamListBase, useNavigation } from '@react-navigation/native'
+import { ParamListBase, StackActions, useNavigation } from '@react-navigation/native'
 import { StackNavigationProp } from '@react-navigation/stack'
 import signin from '../../styles/signin'
 import start from '../../styles/start'
@@ -20,10 +20,11 @@ import { FormErrors } from '../../interfaces/FormErrors'
 // TODO: verwijder skip buttons
 
 export default () => {
+  const navigation = useNavigation();
   const [userCredentials, setUserCredentials] = useState({
-    email: 'thyssa.dekeyser@hotmail.com',
-    password: 'Password123',
-    displayName: 'Thyssa',
+    email: '',
+    password: '',
+    displayName: '',
     error: '',
   })
 
@@ -68,7 +69,11 @@ export default () => {
     )
       .then((u: UserCredential) => {
         setUser(u.user)
-        navigate('AppNavigation', {screen: 'Account'})
+        navigation.dispatch(
+          StackActions.replace('AppNavigation', {
+            user: 'displayName', screen : 'Account'
+          })
+        );
       })
       .catch((err) => {
         setErrors((currentErrors: FormErrors) => {
@@ -112,7 +117,7 @@ export default () => {
 
   return (
     <View style={[signin.container]}>
-      <Text>Signin screen!</Text>
+      <Text style={start.buttontext}>Log in pagina</Text>
 
       {!!userCredentials.error && (
         <View>
@@ -130,7 +135,7 @@ export default () => {
         />
 
         <TextInput
-          placeholder="Password"
+          placeholder="Wachtwoord"
           value={userCredentials.password}
           onChangeText={(text) =>
             setUserCredentials({ ...userCredentials, password: text })

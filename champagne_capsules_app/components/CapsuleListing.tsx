@@ -5,65 +5,28 @@ import { CapsuleCard as styling } from '../styles/capsule'
 import { ParamListBase, useNavigation } from '@react-navigation/native'
 import { StackNavigationProp } from '@react-navigation/stack'
 import { Feather, Ionicons } from '@expo/vector-icons'
-
-// export const isGenummerd = (item: Capsule) => {
-//   if (item.genummerd == true) {
-//     return <Feather name="hash" style={styling.symbol_true} size={16} color="black" />
-//   } else {
-//     return <Feather name="hash" style={styling.symbol_false} size={16} color="black" />
-//   }
-// }
-// export const isBelgisch = (item: Capsule) => {
-//   if (item.belgisch == true) {
-//     return <Image
-//     style={styling.vlag}
-//     source={{
-//       uri: 'https://flagcdn.com/16x12/be.png',
-//     }}
-//   />
-//   } else {
-//     return <></>
-//   }
-// }
-// export const isPalm = (item: Capsule) => {
-//   if (item.palm == true) {
-//     return <Ionicons name="brush" style={styling.symbol_true} size={16} color="black" />
-//   } else {
-//     return <Ionicons name="brush" style={styling.symbol_false} size={16} color="black" />
-//   }
-// }
-
+import { IsBelgisch, IsGenummerd, IsPalm } from './IsTrue'
+import { useEffect, useState } from 'react'
+import { endpoint } from '../utils/Backend'
 
 export const CapsuleListing = ({ capsule }: { capsule: Capsule }) => {
   const { navigate } = useNavigation<StackNavigationProp<ParamListBase>>()
 
-  const isGenummerd = (item: Capsule) => {
-    if (item.genummerd == true) {
-      return <Feather name="hash" style={styling.symbol_true} size={16} color="black" />
-    } else {
-      return <Feather name="hash" style={styling.symbol_false} size={16} color="black" />
-    }
+  const [text, setText] = useState<string | undefined>()
+  const [item, setItem] = useState([])
+  const [isLoading, setIsLoading] = useState(true)
+
+  const fetchData = async () => {
+    const resp = await fetch(`${endpoint}capsules`)
+    const item = await resp.json()
+    setItem(item)
+    setIsLoading(false)
   }
-  const isBelgisch = (item: Capsule) => {
-    if (item.belgisch == true) {
-      return <Image
-    style={styling.vlag}
-    source={{
-      uri: 'https://flagcdn.com/16x12/be.png',
-    }}
-  />
-    } else {
-      return <></>
-    }
-  }
-  const isPalm = (item: Capsule) => {
-    if (item.palm == true) {
-      return <Ionicons name="brush" style={styling.symbol_true} size={16} color="black" />
-    } else {
-      return <Ionicons name="brush" style={styling.symbol_false} size={16} color="black" />
-    }
-  }
-  
+
+  useEffect(() => {
+    fetchData()
+  })
+
   const renderItem = ({ item }: { item: Capsule }) => {
     return (
       <TouchableOpacity
@@ -73,7 +36,7 @@ export const CapsuleListing = ({ capsule }: { capsule: Capsule }) => {
         <Image
           style={styling.foto}
           source={{
-            uri: item.foto
+            uri: item.foto,
           }}
         />
         <View style={styling.titel_huis}>
@@ -81,9 +44,9 @@ export const CapsuleListing = ({ capsule }: { capsule: Capsule }) => {
           <Text style={styling.huis}>{item.huis}</Text>
         </View>
         <View style={styling.symbolen}>
-          {isBelgisch(item)}
-          {isGenummerd(item)}
-          {isPalm(item)}
+          {IsBelgisch(item)}
+          {IsGenummerd(item)}
+          {IsPalm(item)}
         </View>
       </TouchableOpacity>
     )
