@@ -16,14 +16,12 @@ export default () => {
   // TODO: verwijder skip buttons
   return (
     <SafeAreaView style={[start.container]}>
-      {/* <Image
+      <Image
         style={start.foto}
         source={{
-          uri: 'https://www.allcaps.eu/img/default_cap.png',
+          uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUP_R_1mzEnW7CMZYrW-EQ-dZJ8UpkImngdg&usqp=CAU',
         }}
       />
-      <Text style={start.textimage}>Welkom!</Text> */}
-
       <Pressable
         onPress={() => navigate('Login')}
         style={[start.buttonImage]}
@@ -35,7 +33,7 @@ export default () => {
           }}
         >
           <View style={start.textView}>
-            <Text style={start.buttontext}>Inloggen!</Text>
+            <Text style={start.buttontext}>Log in</Text>
           </View>
         </ImageBackground>
       </Pressable>
@@ -50,7 +48,7 @@ export default () => {
           }}
         >
           <View style={start.textView}>
-            <Text style={start.buttontext}>Registeren!</Text>
+            <Text style={start.buttontext}>Registreer</Text>
           </View>
         </ImageBackground>
       </Pressable>

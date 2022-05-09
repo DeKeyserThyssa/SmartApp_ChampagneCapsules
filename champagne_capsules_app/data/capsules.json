@@ -1,5 +1,6 @@
 [
   {
+    "id": "a1",
     "foto": "https://www.allcaps.eu/storage/c/bb7360/9pprp-a6bb.png",
     "titel": "PALM, chat",
     "huis": "Lambert 2022",
@@ -8,14 +9,15 @@
     "palm": true,
     "oplage": 300,
     "kleuren": {
-      "vooraan": ["crème", "roze", "groen", "grijs", "zwart"],
-      "opzij": ["crème", "zwart"]
+      "vooraan": ["crème ", "roze ", "groen ", "grijs ", "zwart"],
+      "opzij": ["crème ", "zwart"]
     },
     "tekst": {
       "opzij": "D K .../300"
     }
   },
   {
+    "id": "a2",
     "foto": "https://www.allcaps.eu/storage/c/02fb3f/f426-f428.png",
     "titel": "Lion Flamand",
     "huis": "Lambert 2022",
@@ -25,15 +27,15 @@
     "beschrijving": "Série de 3. Belgique",
     "oplage": 240,
     "kleuren": {
-      "vooraan": ["wit", "geel", "rood", "zwart"],
-      "opzij": ["geel", "zwart"]
+      "vooraan": ["wit ", "geel ", "rood ", "zwart"],
+      "opzij": ["geel ", "zwart"]
     },
     "tekst": {
       "opzij": ".../240"
     }
   },
   {
-    "id": "abc12345",
+    "id": "a3",
     "foto": "https://www.allcaps.eu/storage/c/5d258c/r61c03de4df238.png",
     "fotobinnenkant": "https://www.allcaps.eu/storage/c/5d258c/v61c03de4e03af.png",
     "titel": "Vieux rose",
@@ -44,8 +46,8 @@
     "beschrijving": "Logo de la fromagerie Lieven",
     "oplage": 240,
     "kleuren": {
-      "vooraan": ["wit", "geel", "roze", "zwart"],
-      "opzij": ["wit", "roze", "zwart"]
+      "vooraan": ["wit ", "geel ", "roze ", "zwart"],
+      "opzij": ["wit ", "roze ", "zwart"]
     },
     "tekst": {
       "vooraan": "kaashandel LIEVEN",
@@ -54,6 +56,7 @@
     }
   },
   {
+    "id": "a4",
     "foto": "https://www.allcaps.eu/storage/c/02fb3f/52e0-52e2.png",
     "titel": "Drapeau Belge",
     "huis": "Lambert 2022",
@@ -63,12 +66,13 @@
     "beschrijving": "Série de 3. Belgique",
     "oplage": 240,
     "kleuren": {
-      "vooraan": ["wit", "geel", "rood", "zwart"],
-      "opzij": ["wit", "geel", "rood", "zwart"]
+      "vooraan": ["wit ", "geel ", "rood ", "zwart"],
+      "opzij": ["wit ", "geel ", "rood ", "zwart"]
     },
     "tekst": { "opzij": ".../240" }
   },
   {
+    "id": "a5",
     "foto": "https://www.allcaps.eu/storage/c/a967b3/r61269a85dc8ab.png",
     "titel": "Grappe verte",
     "huis": "Lambert 2022",
@@ -83,6 +87,7 @@
     "tekst": { "opzij": "2021 - .../240" }
   },
   {
+    "id": "a6",
     "foto": "https://www.allcaps.eu/storage/c/f212ad/233x9-ebfd.png",
     "fotobinnenkant": "https://www.allcaps.eu/storage/c/f212ad/233x9-de3a.png",
     "titel": "PALM 2017-4",
@@ -92,8 +97,8 @@
     "palm": true,
     "oplage": 240,
     "kleuren": {
-      "vooraan": ["crème", "geel", "rood", "zwart"],
-      "opzij": ["geel", "rood"]
+      "vooraan": ["crème ", "geel ", "rood ", "zwart"],
+      "opzij": ["geel ", "rood"]
     },
     "tekst": {
       "vooraan": "Music for Life De Warmste Week",
@@ -102,91 +107,101 @@
     }
   },
   {
+    "id": "a7",
     "titel": "Noir et or, très grandes lettres",
     "huis": "Lambert Tome 1",
     "beschrijving": "Très grandes lettres",
-    "kleuren": { "vooraan": ["goud", "zwart"], "opzij": ["zwart"] }
+    "kleuren": { "vooraan": ["goud ", "zwart"], "opzij": ["zwart"] }
   },
   {
+    "id": "a8",
     "foto": "https://www.allcaps.eu/storage/c/e7f809/r6276909f15b8a.png",
     "titel": "Marron pâle",
     "oplage": 240,
     "kleuren": {
       "vooraan": ["bruin"],
-      "opzij": ["bruin", "zwart"]
+      "opzij": ["bruin ", "zwart"]
     },
-    "tekst": { "vooraan": "LB", "opzij": "TOURS SUR MARNE" }
+    "tekst": { "vooraan": "LB ", "opzij": "TOURS SUR MARNE" }
   },
   {
+    "id": "a9",
     "foto": "https://www.allcaps.eu/storage/c/bb7360/4bba-4bbb.png",
     "fotobinnenkant": "https://www.allcaps.eu/storage/c/bb7360/j7w16-8522.png",
     "titel": "Jéroboam, 2015, recto-verso, contour blanc",
     "huis": "Lambert 2022",
     "beschrijving": "Nomexy 2015",
-    "kleuren": { "vooraan": ["polychroom"], "opzij": ["wit", "zwart"], "rectoverso": ["blauw"] },
-    "tekst": { "opzij": "C.P.V. NOMEXY 2015 ARSONVAL", "rectoverso": "C.P.V. NOMEXY 2015 ARSONVAL"}
+    "kleuren": { "vooraan": ["polychroom"], "opzij": ["wit ", "zwart"], "rectoverso": ["blauw"] },
+    "tekst": { "opzij": "C.P.V. NOMEXY 2015 ARSONVAL ", "rectoverso": "C.P.V. NOMEXY 2015 ARSONVAL"}
   },
   {
+    "id": "b1",
     "foto": "https://www.allcaps.eu/storage/c/bb7360/262e-2630.png",
     "fotobinnenkant": "https://www.allcaps.eu/storage/c/bb7360/mxp9j-5247.png",
     "titel": "Jéroboam, 2015, recto-verso, contour noir",
     "huis": "Lambert 2022",
     "beschrijving": "Nomexy 2015",
-    "kleuren": { "vooraan": ["polychroom"], "opzij": ["wit", "zwart"], "rectoverso": ["blauw"] },
-    "tekst": { "opzij": "C.P.V. NOMEXY 2015 ARSONVAL", "rectoverso": "C.P.V. NOMEXY 2015 ARSONVAL"}
+    "kleuren": { "vooraan": ["polychroom"], "opzij": ["wit ", "zwart"], "rectoverso": ["blauw"] },
+    "tekst": { "opzij": "C.P.V. NOMEXY 2015 ARSONVAL ", "rectoverso": "C.P.V. NOMEXY 2015 ARSONVAL"}
   },
   {
+    "id": "b2",
     "foto": "https://www.allcaps.eu/storage/c/bb7360/1wm3r-f648.png",
     "fotobinnenkant": "https://www.allcaps.eu/storage/c/bb7360/1wm3r-3b41.png",
     "titel": "Jéroboam, 2016, recto-verso, contour noir",
     "huis": "Lambert 2022",
     "beschrijving": "Nomexy 2016",
     "kleuren": { "vooraan": ["polychroom"], "opzij": ["oranje"], "rectoverso": ["polychroom"] },
-    "tekst": { "opzij": "C.P.V. NOMEXY 2016 ARSONVAL", "rectoverso": "C.P.V. NOMEXY 2016 ARSONVAL"}
+    "tekst": { "opzij": "C.P.V. NOMEXY 2016 ARSONVAL ", "rectoverso": "C.P.V. NOMEXY 2016 ARSONVAL"}
   },
   {
+    "id": "b3",
     "foto": "https://www.allcaps.eu/storage/c/bb7360/e57a-e57b.png",
     "fotobinnenkant": "https://www.allcaps.eu/storage/c/bb7360/nxd1d-2fb0.png",
     "titel": "Jéroboam, 2016, recto-verso, contour gris",
     "huis": "Lambert 2022",
     "beschrijving": "Nomexy 2016",
     "kleuren": { "vooraan": ["polychroom"], "opzij": ["grijs"], "rectoverso": ["polychroom"] },
-    "tekst": { "opzij": "C.P.V. NOMEXY 2016 ARSONVAL", "rectoverso": "C.P.V. NOMEXY 2016 ARSONVAL"}
+    "tekst": { "opzij": "C.P.V. NOMEXY 2016 ARSONVAL ", "rectoverso": "C.P.V. NOMEXY 2016 ARSONVAL"}
   },
   {
+    "id": "b4",
     "foto": "https://www.allcaps.eu/storage/c/bb7360/1b01-1b02.png",
     "fotobinnenkant": "https://www.allcaps.eu/storage/c/bb7360/kdbwr-cc68.png",
     "titel": "Jéroboam, 2017, recto-verso, contour jaune",
     "huis": "Lambert 2022",
     "beschrijving": "Nomexy 2017",
-    "kleuren": { "vooraan": ["polychroom"], "opzij": ["geel", "zwart"], "rectoverso": ["geel"] },
-    "tekst": { "opzij": "C.P.V. NOMEXY 2017 ARSONVAL", "rectoverso": "C.P.V. NOMEXY 2017 ARSONVAL"}
+    "kleuren": { "vooraan": ["polychroom"], "opzij": ["geel ", "zwart"], "rectoverso": ["geel"] },
+    "tekst": { "opzij": "C.P.V. NOMEXY 2017 ARSONVAL ", "rectoverso": "C.P.V. NOMEXY 2017 ARSONVAL"}
   },
   {
+    "id": "b5",
     "foto": "https://www.allcaps.eu/storage/c/bb7360/5c56-5c58.png",
     "fotobinnenkant": "https://www.allcaps.eu/storage/c/bb7360/875d-875f.png",
     "titel": "Jéroboam, 2017, recto-verso, contour fuchsia",
     "huis": "Lambert 2022",
     "beschrijving": "Nomexy 2017",
     "kleuren": { "vooraan": ["polychroom"], "opzij": ["paars"], "rectoverso": ["geel"] },
-    "tekst": { "opzij": "C.P.V. NOMEXY 2017 ARSONVAL", "rectoverso": "C.P.V. NOMEXY 2017 ARSONVAL"}
+    "tekst": { "opzij": "C.P.V. NOMEXY 2017 ARSONVAL ", "rectoverso": "C.P.V. NOMEXY 2017 ARSONVAL"}
   },
   {
+    "id": "b6",
     "foto": "https://www.allcaps.eu/storage/c/bb7360/213e-2140.png",
     "fotobinnenkant": "https://www.allcaps.eu/storage/c/bb7360/5d9ze-1da6.png",
     "titel": "Jéroboam, 2018, recto-verso, contour vert pomme",
     "huis": "Lambert 2022",
     "beschrijving": "Nomexy 2018",
-    "kleuren": { "vooraan": ["polychroom"], "opzij": ["groen", "zwart"], "rectoverso": ["geel"] },
-    "tekst": { "opzij": "C.P.V. NOMEXY 2018 ARSONVAL", "rectoverso": "C.P.V. NOMEXY 2018 ARSONVAL"}
+    "kleuren": { "vooraan": ["polychroom"], "opzij": ["groen ", "zwart"], "rectoverso": ["geel"] },
+    "tekst": { "opzij": "C.P.V. NOMEXY 2018 ARSONVAL ", "rectoverso": "C.P.V. NOMEXY 2018 ARSONVAL"}
   },
   {
+    "id": "b7",
     "foto": "https://www.allcaps.eu/storage/c/bb7360/4661-4663.png",
     "fotobinnenkant": "https://www.allcaps.eu/storage/c/bb7360/kdb55-31af.png",
     "titel": "Jéroboam, 2018, recto-verso, contour rouge foncé",
     "huis": "Lambert 2022",
     "beschrijving": "Nomexy 2018",
-    "kleuren": { "vooraan": ["polychroom"], "opzij": ["rood", "zwart"], "rectoverso": ["polychroom"] },
-    "tekst": { "opzij": "C.P.V. NOMEXY 2018 ARSONVAL", "rectoverso": "C.P.V. NOMEXY 2018 ARSONVAL"}
+    "kleuren": { "vooraan": ["polychroom"], "opzij": ["rood ", "zwart"], "rectoverso": ["polychroom"] },
+    "tekst": { "opzij": "C.P.V. NOMEXY 2018 ARSONVAL ", "rectoverso": "C.P.V. NOMEXY 2018 ARSONVAL"}
   }
 ]

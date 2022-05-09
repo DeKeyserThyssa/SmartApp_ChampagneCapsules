@@ -4,7 +4,7 @@ export default interface Beurs {
     datum: string
     adres: string
     uur: string
-    organisator: string
+    organisator?: string
     prijs: string
-    beschrijving: string
+    beschrijving?: string
 }

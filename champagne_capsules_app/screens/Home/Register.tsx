@@ -14,7 +14,6 @@ import { StackNavigationProp } from '@react-navigation/stack'
 import signin from '../../styles/signin'
 
 // TODO: errors
-// TODO: verwijder skip buttons
 
 export default () => {
   const navigation = useNavigation();
@@ -82,12 +81,6 @@ export default () => {
           style={[start.button]}
         >
           <Text style={[start.buttontext]}>Log in</Text>
-        </Pressable>
-        <Pressable
-          onPress={() => navigate('AppNavigation', { screen: 'Account' })}
-          style={[start.button]}
-        >
-          <Text style={[start.buttontext]}>Skip</Text>
         </Pressable>
       </View>
     </View>

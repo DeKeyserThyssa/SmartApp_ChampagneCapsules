@@ -9,6 +9,7 @@ import Capsule from '../interfaces/Capsule'
 export const BeursDetail = ({ route }: { route: any }) => {
   const { payload } = route.params
   const navigation = useNavigation<StackNavigationProp<ParamListBase>>()
+  const { navigate } = useNavigation<StackNavigationProp<ParamListBase>>()
 
   useEffect(() => {
     navigation?.getParent()?.setOptions({ titel: payload.locatie })
@@ -16,9 +17,10 @@ export const BeursDetail = ({ route }: { route: any }) => {
 
   return (
     <View style={styling.detail}>
+      <Feather style={styling.back} name="arrow-left" size={24} color="black" onPress={() => navigate('OverviewBeurzen')} />
       <Text style={styling.locatie}>{payload.locatie}</Text>
       <View style={styling.icon}>
-        <Feather name="map-pin" size={20} color="black" />
+        <Feather style={styling.map} name="map-pin" size={20} color="black" />
         <Text style={styling.adres}>{payload.adres}</Text>
       </View>
 

@@ -18,7 +18,7 @@ export const BeursListing = ({ beurs }: { beurs: Beurs }) => {
         <View style={styling.beurs}>
           <View style={styling.locatie}>
             <Feather name="map-pin" size={20} color="black" />
-            <Text>{item.locatie}</Text>
+            <Text style={styling.map}>{item.locatie}</Text>
           </View>
           <View style={styling.datum}>
             <FontAwesome name="calendar" size={20} color="black" />

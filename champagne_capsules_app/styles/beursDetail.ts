@@ -4,13 +4,18 @@ import color from "./color";
 export const BeursDetail = StyleSheet.create({
 
     detail: {
-        padding: 16,
+        paddingRight: 16,
+        paddingLeft: 16
     },
     locatie: {
         fontSize: 28,
+        marginBottom: 16
     },
     adres: {
         fontSize: 22,
+    },
+    map: {
+        marginRight: 8,
     },
     date: {
         flexDirection: "row",
@@ -39,6 +44,9 @@ export const BeursDetail = StyleSheet.create({
     },
     beschrijving: {
         marginVertical: 24,
+    },
+    back: {
+        marginBottom: 32
     }
     
 })

@@ -3,7 +3,7 @@ import { CapsuleDetail as styling } from '../styles/capsuleDetails'
 import { ParamListBase, useNavigation } from '@react-navigation/native'
 import { StackNavigationProp } from '@react-navigation/stack'
 import { useEffect } from 'react'
-import { Feather, Ionicons } from '@expo/vector-icons'
+import { Feather, FontAwesome } from '@expo/vector-icons'
 import Capsule from '../interfaces/Capsule'
 import {
   IsBelgisch,
@@ -21,21 +21,27 @@ import { checkColor } from './Colors'
 export const CapsuleDetail = ({ route }: { route: any }) => {
   const { payload } = route.params
   const navigation = useNavigation<StackNavigationProp<ParamListBase>>()
+  const { navigate } = useNavigation<StackNavigationProp<ParamListBase>>()
 
   useEffect(() => {
     navigation?.getParent()?.setOptions({ titel: payload.titel })
   }, [])
 
-  // const isPalm = (payload: Capsule) => {
-  //   if (payload.palm == true) {
-  //     return <Ionicons name="brush" style={styling.symbol_true} size={16} color="black" />
-  //   } else {
-  //     return <Ionicons name="brush" style={styling.symbol_false} size={16} color="black" />
-  //   }
-  // }
-
   return (
     <View style={styling.detail}>
+      <View style={styling.nav}>
+        <Feather
+          name="arrow-left"
+          size={24}
+          color="black"
+          onPress={() => navigate('Overview')}
+        />
+        <View style={styling.nav}>
+          <Feather name="heart" size={24} color="black" />
+          <FontAwesome name="handshake-o" size={24} color="black" />
+        </View>
+      </View>
+
       <View style={styling.header}>
         <View style={styling.header_text}>
           <Text style={styling.titel}>{payload.titel}</Text>

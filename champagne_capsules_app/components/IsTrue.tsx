@@ -6,7 +6,6 @@ import { Image, Text, View } from 'react-native'
 import { checkColor } from './Colors'
 import color from '../styles/color'
 
-// TODO: eigen styling!!!
 
 export const KleurenVooraan = (item: Capsule) => {
   if (item.kleuren?.vooraan != undefined) {

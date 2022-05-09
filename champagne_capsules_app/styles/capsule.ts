@@ -1,8 +1,6 @@
 import { StyleSheet } from "react-native";
 import color from "./color";
 
-// TODO: na IsTrue oplage hier weg
-
 export const CapsuleCard = StyleSheet.create({
     holder: {
         margin: 16,
@@ -10,7 +8,6 @@ export const CapsuleCard = StyleSheet.create({
     button: {
         padding: 16,
         flexDirection: "row",
-        // borderWidth: 1,
     },
     foto: {
         width: 48,

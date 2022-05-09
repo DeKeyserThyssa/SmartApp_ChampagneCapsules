@@ -12,7 +12,7 @@ export const Overview = ({ beurs }: { beurs: Beurs }) => {
 
   useEffect(() => {
     nav.getParent()?.setOptions({ title: 'Beurs' })
-  }, [isFocused]) // TODO: check correct dependency
+  }, [isFocused])
 
   return (
     <SafeAreaView style={core.container}>

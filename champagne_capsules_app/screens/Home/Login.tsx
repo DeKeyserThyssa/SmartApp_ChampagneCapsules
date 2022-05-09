@@ -17,7 +17,6 @@ import Account from '../Account'
 import { FormErrors } from '../../interfaces/FormErrors'
 
 // TODO: errors
-// TODO: verwijder skip buttons
 
 export default () => {
   const navigation = useNavigation();
@@ -145,9 +144,6 @@ export default () => {
 
         <Pressable onPress={login} style={[start.button]}>
           <Text style={[start.buttontext]}>Log in</Text>
-        </Pressable>
-        <Pressable onPress={() => navigate('AppNavigation', {screen: 'Account'})} style={[start.button]}>
-          <Text style={[start.buttontext]}>Skip</Text>
         </Pressable>
       </View>
     </View>

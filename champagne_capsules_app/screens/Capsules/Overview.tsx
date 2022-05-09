@@ -12,7 +12,7 @@ export const Overview = ({ capsule }: { capsule: Capsule }) => {
 
   useEffect(() => {
     nav.getParent()?.setOptions({ title: 'Capsules' })
-  }, [isFocused]) // TODO: check correct dependency
+  }, [isFocused])
 
   return (
     <SafeAreaView style={core.container}>

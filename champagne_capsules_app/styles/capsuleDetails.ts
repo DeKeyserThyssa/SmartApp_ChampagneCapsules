@@ -55,6 +55,11 @@ export const CapsuleDetail = StyleSheet.create({
     vlag: {
         width: 16,
         height: 16
+    },
+    nav: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        marginVertical: 8
     }
     
 })

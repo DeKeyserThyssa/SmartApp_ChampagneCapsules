@@ -8,14 +8,17 @@ export default StyleSheet.create({
     marginTop: 64,
     margin: 24,
   },
-
+  foto: {
+    width: 300,
+    height: 100,
+    marginBottom: 32,
+  },
   buttonImage: {
     alignItems: 'center',
     justifyContent: 'center',
     width: 200,
     paddingVertical: 12,
     paddingHorizontal: 32,
-    marginTop: 24,
     borderRadius: 50,
   },
   button: {

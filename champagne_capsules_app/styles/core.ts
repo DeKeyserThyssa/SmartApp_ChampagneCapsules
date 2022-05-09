@@ -34,7 +34,7 @@ export default StyleSheet.create({
 
   container: {
     marginHorizontal: 16,
-    paddingBottom: 64,
+    paddingBottom: 16,
   },
 
   // STYLING
