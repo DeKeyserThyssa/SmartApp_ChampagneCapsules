@@ -1,128 +1,180 @@
 [
   {
     "id": "a1",
+    "locatie": "Zaal Sint Anna, Erpe-Mere",
+    "datum": "27/08/2022",
+    "adres": "Bambruggedorp 44, 9420 ERPE-MERE",
+    "uur": "09:00 - 17:00",
+    "organisator": "Hercaps",
+    "prijs": "€2",
+    "beschrijving": "Ruilbeurs, Inkom 2,00 Euro met zwart wit capsule. Verkopers 10,00 Euro, Broodjes ter plaatse beschikbaar."
+  },
+  {
+    "id": "a2",
+    "locatie": "Champagneweekend Philippe Moutardier @ brouwerij Liefmans, Oudenaarde",
+    "datum": "27/08/2022",
+    "adres": "Aalststraat 200, 9700 OUDENAARDE",
+    "uur": "11:00 - 20:00",
+    "organisator": "DEN BRUSSELIER",
+    "prijs": "Gratis",
+    "beschrijving": "Weekend met degustatie van de verschillende cuvées, catering ter plaatse, ruilbeurs op zondag morgen van 9u-15u. Speciale uitgave. Inkom gratis. Tafel 5€ + capsule, leden gratis"
+  },
+  {
+    "id": "a3",
+    "locatie": "Champagne aan de Schelde - Weekend Champagneweekend Philippe Moutardier, Oudenaarde",
+    "datum": "28/08/2022",
+    "adres": "Aalststraat 200, 9700 OUDENAARDE",
+    "uur": "09:00 - 15:00",
+    "organisator": "DEN BRUSSELIER",
+    "prijs": "Gratis",
+    "beschrijving": "Weekend met degustatie van de verschillende cuvées, catering ter plaatse, ruilbeurs op zondag morgen van 9u-15u. Speciale uitgave. Inkom gratis. Ruiltafel 5€ + capsule, leden gratis"
+  },
+  {
+    "id": "a4",
+    "locatie": "TEA-ROOM 'DE CANADEES', Maldegem",
+    "datum": "01/09/2022",
+    "adres": "Heulendonk 21, 9991 MALDEGEM",
+    "uur": "11:00 - 17:00",
+    "organisator": "Maldocaps",
+    "prijs": "Gratis",
+    "beschrijving": "ruime parking, restauratie mogelijk"
+  },
+  {
+    "id": "a5",
+    "locatie": "Maandelijkse Ruilbeurs, Scherpenheuvel-Zichem",
+    "datum": "01/09/2022",
+    "adres": "Houwaartstraat, 3270 SCHERPENHEUVEL-ZICHEM",
+    "uur": "16:30 - 20:00",
+    "organisator": "Verzamelclub Scherpenheuvel-Zichem",
+    "prijs": "Gratis",
+    "beschrijving": "Maandelijkse Ruilbeurs, Gratis inkom, Parking achter de kerk, naast de zaal ‘ t Klaverke"
+  },
+  {
+    "id": "a6",
+    "locatie": "TER HELME, Koksijde",
+    "datum": "03/09/2022",
+    "adres": "Kinderlaan 49-51, 8670 KOKSIJDE",
+    "uur": "09:00 - 16:00",
+    "organisator": "COXYCAPS",
+    "prijs": "Gratis",
+    "beschrijving": "7de ruilbeurs champagnecapsules, 3 nieuwe capsules champagne Servenay & Fils, Ruime zaal - wifi - parking, Belegde broodjes - selfservice - restaurant - terras, RESERVATIE VERPLICHT! RESERVATION OBLIGATOIRE, 7ième bourse d'échange capsules de champagne, 3 nouvelles capsules champagne Servenay & Fils, Salle spacieuse - wifi - parking, Petite restauration, Hébergement sur place www.terhelme.be"
+  },
+  {
+    "id": "a7",
+    "locatie": "Ruilbeurs Capsulevrienden, Oosterzele",
+    "datum": "04/09/2022",
+    "adres": "Berg 11, 9860 OOSTERZELE",
+    "uur": "09:00",
+    "organisator": "Marc Hantson",
+    "prijs": "€2",
+    "beschrijving": "Begin 9.00u tot 17.00u, Ingang 2 euro met gratis nieuwe capsule Rudy Colman, 2 é en 3é nieuwe capsule Rudy Colman te verkrijgen met pakket van 2 flessen Champagne beperkte oplage; Champagne, broodjes, koffie, frisdrank; Gratis grote parking naast de zaal, Tafel verplicht te reserveren, Mogelijkheid deelname aan een middagmaal vanaf 13.00u, Friet met stoverij +dessert 18 euro Vooraf te reserveren, Voor alle reservaties mail naar wijnen.marco@telenet.be of 0474292303"
+  },
+  {
+    "id": "a8",
     "locatie": "Del Mare, Waasmunster",
-    "datum": "09/05/2022",
+    "datum": "05/09/2022",
     "adres": "Hamstraat 1, 9250 WAASMUNSTER",
-    "uur": "10:00 - 15:00",
+    "uur": "10:00",
     "prijs": "Gratis",
     "beschrijving": "ruime parking, snacks te verkrijgen, geen professionele verkopers, ruilen binnen en onder de tent, tel Del Mare 0496168520, bij voorkeur inschrijven"
   },
   {
-    "id": "a2",
-    "locatie": "Veurnse ruilbeurs",
-    "datum": "10/05/2022",
-    "adres": "Grote Markt 24, 8630 VEURNE",
-    "uur": "14:00 - 17:00",
-    "organisator": "Brasserie Christophe",
-    "prijs": "Gratis",
-    "beschrijving": "Iedereen welkom, gelegenheid om vooraf middagmaal te gebruiken (best reserveren!) en daarna uw plaats te behouden voor de ruilbeurs. Champagne met eigen capsules!"
-  },
-  {
-    "id": "a3",
-    "locatie": "Maandelijkse ruilbeurs, Scherpenheuvel - Zichem",
-    "datum": "12/05/2022",
-    "adres": "Houwaartstraat 336, 3270 SCHERPENHEUVEL-ZICHEM",
-    "uur": "16:30 - 21:30",
-    "organisator": "Ruilclub Scherpenheuvel-Zichem",
-    "prijs": "Gratis",
-    "beschrijving": "Opgelet: GEWIJZIGDE DATUM, Gratis inkom, Gratis parking naast de zaal, achter de kerk, Diverse champagnes beschikbaar. Nieuw: de pálm champagne Dehu. Geschilderd door Luc Ameel. Nog enkele flessen te verkrijgen aan 30 €."
-  },
-  {
-    "id": "a4",
-    "locatie": "Zaal 'Ter Ijse', Overijse",
-    "datum": "14/05/2022",
-    "adres": "Stationsstraat 8, 3090 OVERIJSE",
-    "uur": "09:00 - 13:00",
-    "organisator": "Ruilkring Eureka",
-    "prijs": "Gratis",
-    "beschrijving": "iedere 2° zaterdag van de maand behalve in Juli en Augustus"
-  },
-  {
-    "id": "a5",
-    "locatie": "In de tent naast DE KEIRK, Aalst",
-    "datum": "14/05/2022",
-    "adres": "Geraardsbergsesteenweg 79, 9320 AALST",
-    "uur": "09:00 - 17:00",
-    "prijs": "€2",
-    "beschrijving": "Ruilbeurs van champagnecapsules, Ingangscapsule en mooie tombola, Verder info wordt nog vermeld"
-  },
-  {
-    "id": "a6",
-    "locatie": "Levensvreugde Scholen, Aalst",
-    "datum": "14/05/2022",
-    "adres": "Botermelkstraat 201, 9300 AALST",
-    "uur": "10:00 - 17:00",
-    "organisator": "De Zonneroos",
-    "prijs": "Gratis",
-    "beschrijving": "VIERDE RUILBEURS Levensvreugde De Zonneroos met uitgave van 3 nieuwe capsules, Gratis toegang - enkel verkoop van champagnes door de inrichters - tombola t.v.v. De Zonneroos, Ruime parking - champagne, frisdranken, koffie en broodjes. Champagne drinken op de beurs = extraatje, Ruilbeurs volgens de geldende coronamaatregelen. Beperkt aantal tafels (35) Gelieve uw tafel te reserveren."
-  },
-  {
-    "id": "a7",
-    "locatie": "WZC Sint-Jozef, Deinze",
-    "datum": "15/05/2022",
-    "adres": "Kortrijksesteenweg 61, 9800 DEINZE",
-    "uur": "08:30 - 12:30",
-    "organisator": "Ruilclub Deinze",
-    "prijs": "Gratis",
-    "beschrijving": "Elke 3e zondag van de maand behalve in juli en augustus niet. Steeds volgens de dan geldende corona-regels. Reservatie gewenst maar niet noodzakelijk."
-  },
-  {
-    "id": "a8",
-    "locatie": "Levensvreugde Scholen, Aalst",
-    "datum": "15/05/2022",
-    "adres": "Botermelkstraat 201, 9300 AALST",
-    "uur": "10:00 - 16:00",
-    "organisator": "De Zonneroos",
-    "prijs": "Gratis",
-    "beschrijving": "VIJFDE RUILBEURS Levensvreugde De Zonneroos met uitgave van 3 nieuwe capsules, Gratis toegang - enkel verkoop van champagnes door de inrichters - tombola t.v.v. De Zonneroos, Ruime parking - champagne, frisdranken, koffie en broodjes. Champagne drinken op de beurs = extraatje, Ruilbeurs volgens de geldende coronamaatregelen. Beperkt aantal tafels (35) Gelieve uw tafel te reserveren."
-  },
-  {
     "id": "a9",
-    "locatie": "Bij Jack, Izegem",
-    "datum": "16/05/2022",
-    "adres": "Stationstraat, 8870 IZEGEM",
-    "uur": "15:45 - 23:45",
+    "locatie": "Ruilbeurs Champagnelovers, Zedelgem",
+    "datum": "05/09/2022",
+    "adres": "Eernegemsestraat 1, 8211 ZEDELGEM",
+    "uur": "14:00 - 18:00",
+    "organisator": " Champagnelovers Cattrysse",
     "prijs": "Gratis",
-    "beschrijving": "Maandelijkse ruilbeurs van de STATIEVRIENDEN, Ook deze keer krijg iedere bezoeker en een gratis nieuwe Belgische capsule"
+    "beschrijving": "Ruilbeurs met champagne en hapje.12.00/persoon. Gratis : Extra Belgische capsule + tombola. Graag inschrijven tegen 1 september via nancy.cattrysse@telenet.be"
   },
   {
     "id": "b1",
-    "locatie": "Dienstencentrum AC/DC, Staden",
-    "datum": "24/05/2022",
-    "adres": "Ieperstraat, 8840 STADEN",
-    "uur": "13:30 - 17:00",
+    "locatie": "Zaal 'Ter IJse', Overijse",
+    "datum": "10/09/2022",
+    "adres": "Stationsstraat 8, 3090 OVERIJSE",
+    "uur": "09:00 - 13:00",
+    "organisator": " Ruilkring Eureka",
     "prijs": "Gratis",
-    "beschrijving": "Ruilbeurs champagne capsules. Reserveer je gratis tafel via mail; willydh@hotmail.com."
+    "beschrijving": "Elke tweede zaterdag van de maand"
   },
   {
     "id": "b2",
-    "locatie": "300m van station Ingelmunster",
-    "datum": "26/05/2022",
-    "adres": "Kortrijkstraat 4, 8870 INGELMUNSTER",
-    "uur": "09:00",
-    "organisator": "Ingelcaps",
-    "prijs": "Gratis",
-    "beschrijving": "TRADITIGETROUW - HEMELVAARTDAG - RESERVATIE GEWENST"
+    "locatie": "loods, Brakel",
+    "datum": "10/09/2022",
+    "adres": "Spoorwegstraat 51, 9660 BRAKEL",
+    "uur": "09:30 - 17:00",
+    "organisator": "De spoorwegpuffers",
+    "prijs": "€2",
+    "beschrijving": "6e ruilbeurs van champagnecapsules. Ingang € 2 met gepersonaliseerde capsule. 2e capsule (strass) enkel verkrijgbaar op fles.Reservatie van tafel (verplicht) en fles is mogelijk via email en onderstaand tel nr. Restauratie ter plaatse. OOK MOGELIJK VOOR RESERVATIE OP ZONDAG 11/09/2022"
   },
   {
     "id": "b3",
-    "locatie": "OC Nieuwenhove, Waregem",
-    "datum": "28/05/2022",
-    "adres": "Kerkhofstraat 30, 8790 WAREGEM",
-    "uur": "09:00 - 15:00",
-    "organisator": "De Champagnevrienden",
+    "locatie": "Neerlandhof, Antwerpen",
+    "datum": "10/09/2022",
+    "adres": "Edenplein 26, 2610 ANTWERPEN",
+    "uur": "10:00 - 16:00",
+    "organisator": "Chamusant",
     "prijs": "Gratis",
-    "beschrijving": "Champagne met nieuwe capsule op fles + een 2 de capsule gratis erbij"
+    "beschrijving": "Inkom enkel toegankelijk voor leden. Tafel reserveren niet nodig. Kleine snacks verkrijgbaar. Champagne verkoop enkel door inrichters."
   },
   {
     "id": "b4",
-    "locatie": "5de zondag v/d maand Ruilvergadering - Zaal Curieus, Sint-Truiden",
-    "datum": "29/05/2022",
-    "adres": "Breendonkstraat 46, 3800 SINT-TRUIDEN",
-    "uur": "07:30 - 14:00",
-    "organisator": "Haspengouwse Verzamelaars",
+    "locatie": "loods, Brakel",
+    "datum": "10/09/2022",
+    "adres": "Spoorwegstraat 51, 9660 BRAKEL",
+    "uur": "09:30 - 16:30",
+    "organisator": "De spoorwegpuffers",
+    "prijs": "€2",
+    "beschrijving": "6e ruilbeurs van champagnecapsules. Ingang € 2 met gepersonaliseerde capsule. 2e capsule (strass) enkel verkrijgbaar op fles.Reservatie van tafel (verplicht) en fles is mogelijk via email en onderstaand tel nr. Restauratie ter plaatse. OOK MOGELIJK VOOR RESERVATIE OP ZATERDAG 10/09/2022"
+  },
+  {
+    "id": "b5",
+    "locatie": "Stade des Ecureuils Football club de Spy, Jemeppe-sur-Sambre",
+    "datum": "12/09/2022",
+    "adres": "Rue de Floreffe 2B, 5190 JEMEPPE-SUR-SAMBRE",
+    "uur": "13:00 - 17:00",
     "prijs": "Gratis",
-    "beschrijving": "5de zondag v/d maand Ruilvergadering, Gratis toegang - champagne, frisdranken, koffie, broodjes en verse soep, Parking aan het,Administratief Centrum & St.Gangulfuskerk, Enkel RUILEN, geen georganiseerde verkoop ! Ruilbeurs volgens de geldende coronamaatregelen. Gelieve uw tafel te reserveren."
+    "beschrijving": "Entrée et tables gratuites."
+  },
+  {
+    "id": "b6",
+    "locatie": "Salons Ter Velde, Zedelgem",
+    "datum": "15/09/2022",
+    "adres": "Eernegemsestraat 151, 8211 ZEDELGEM",
+    "uur": "14:00 - 18:00",
+    "organisator": " Champcap",
+    "prijs": "Gratis",
+    "beschrijving": "Weekbeurs van Chamcap-club, Gratis inkom voor de leden. Kleine restauratie tijdens de beurs. Middagmaal in restaurant, mits reservatie via restaurant (0497/907179)"
+  },
+  {
+    "id": "b7",
+    "locatie": "Feestzaal, Lierde",
+    "datum": "25/09/2022",
+    "adres": "Gentse Steenweg 51, 9571 LIERDE",
+    "uur": "09:30 - 17:00",
+    "organisator": "De spoorwegpuffers",
+    "prijs": "€2",
+    "beschrijving": "Afscheidsruilbeurs van champagnecapsules. Ingang € 2 met gepersonaliseerde capsule. Reservatie van tafel is mogelijk op onderstaand tel. nr Restauratie ter plaatse. De eventuele sanitaire maatregels dienen te worden gerespecteerd. Ruime parking."
+  },
+  {
+    "id": "b8",
+    "locatie": "CULTUURFABRIEK, Ingelmunster",
+    "datum": "28/09/2022",
+    "adres": "Kortrijkstraat 4, 8770 INGELMUNSTER",
+    "uur": "09:00",
+    "organisator": "Ingelcaps",
+    "prijs": "Gratis",
+    "beschrijving": "BIJKOMENDE RUILBEURS - RESERVEREN GRAAG! OPGELET - GEWIJZIGDE DATUM 17 SEPTEMBER geannuleerd, MEER NIEUWS VOLGT"
+  },
+  {
+    "id": "b9",
+    "locatie": "WZC Sint-Jozef, Deinze",
+    "datum": "30/09/2022",
+    "adres": "Kortrijksesteenweg 61, 9800 DEINZE",
+    "uur": "10:00 - 16:00",
+    "organisator": "Ruilclub Deinze",
+    "prijs": "Gratis",
+    "beschrijving": "11e grote ruilbeurs van champagnecapsules. Tevens zal champagnehuis Cossy F. uit Pargny-Lès-Reims aanwezig zijn met haar nieuwste reeks capsules. Een reeks van 6 met als thema vossen, foto's genomen in haar wijngaard. Mogelijkheid tot middagmaal aan € 12. Inschrijven hiervoor kan tot 14 september 2022. Bij komst graag een tafel reserveren maar niet noodzakelijk. Geen verkoop van capsules."
   }
 ]

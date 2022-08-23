@@ -12,7 +12,7 @@ export default {
 
     alpha: 'blue',
 
-    rood: '#FF0000',
+    rood: '#B00020',
     groen: '#1AFF05',
     geel: '#FFF700',
     zwart: '#000000',
@@ -23,6 +23,5 @@ export default {
     bruin: '#8b4513',
     blauw: '#0000ff',
     oranje: '#ffa500'
-
 
 }

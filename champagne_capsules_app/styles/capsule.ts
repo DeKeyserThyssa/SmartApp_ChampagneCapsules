@@ -4,6 +4,7 @@ import color from "./color";
 export const CapsuleCard = StyleSheet.create({
     holder: {
         margin: 16,
+        
     },
     button: {
         padding: 16,

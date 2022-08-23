@@ -4,7 +4,7 @@ import color from "./color";
 export const BeursDetail = StyleSheet.create({
 
     detail: {
-        paddingRight: 16,
+        paddingRight: 32,
         paddingLeft: 16
     },
     locatie: {

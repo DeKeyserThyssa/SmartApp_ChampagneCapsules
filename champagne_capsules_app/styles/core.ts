@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native'
+import { black } from 'react-native-paper/lib/typescript/styles/colors'
 import color from './color'
 
 export default StyleSheet.create({

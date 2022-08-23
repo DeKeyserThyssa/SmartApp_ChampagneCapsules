@@ -12,7 +12,7 @@ import { endpoint } from '../utils/Backend'
 export const CapsuleListing = ({ capsule }: { capsule: Capsule }) => {
   const { navigate } = useNavigation<StackNavigationProp<ParamListBase>>()
 
-  const [text, setText] = useState<string | undefined>()
+  // const [text, setText] = useState<string | undefined>()
   const [item, setItem] = useState([])
   const [isLoading, setIsLoading] = useState(true)
 
@@ -54,7 +54,7 @@ export const CapsuleListing = ({ capsule }: { capsule: Capsule }) => {
 
   return (
     <FlatList
-      data={capsules}
+      data={item}
       renderItem={renderItem}
       keyExtractor={(item) => item.id}
     />

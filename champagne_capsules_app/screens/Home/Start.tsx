@@ -52,13 +52,6 @@ export default () => {
           </View>
         </ImageBackground>
       </Pressable>
-
-      <Pressable
-        onPress={() => navigate('AppNavigation', { screen: 'Account' })}
-        style={[start.button, start.button]}
-      >
-        <Text style={[start.buttontext]}>Skip</Text>
-      </Pressable>
     </SafeAreaView>
   )
 }
