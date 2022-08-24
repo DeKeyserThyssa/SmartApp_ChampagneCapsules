@@ -21,11 +21,12 @@ export const CapsuleListing = ({ capsule }: { capsule: Capsule }) => {
     const item = await resp.json()
     setItem(item)
     setIsLoading(false)
+    // console.log(item)
   }
 
   useEffect(() => {
     fetchData()
-  })
+  }, [])
 
   const renderItem = ({ item }: { item: Capsule }) => {
     return (
